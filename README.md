@@ -1,67 +1,86 @@
-# Customer Churn Prediction using CHAID in Python and leveraging Google's Gemini Flash to generate analyst style insights!
+# Customer Churn Prediction in Telecom Using CHAID and LLMs for Insights
+
+## Overview
+
+In the highly competitive telecom industry, customer churn—especially among prepaid customers—poses a major challenge. With an annual churn rate of 15-25% in telecom, retaining high-value customers is critical for profitability, as it is 5-10 times more costly to acquire a new customer than to retain an existing one.
+
+This project tackles churn prediction for a telecom provider operating in the Indian and Southeast Asian markets. By analyzing customer-level data, we aim to identify customers at high risk of churning and reveal the factors most correlated with churn behavior. This project utilizes CHAID (Chi-squared Automatic Interaction Detector) for market segmentation and Google’s Gemini Flash LLM to generate in-depth, analyst-style insights.
+![image](https://github.com/user-attachments/assets/f16bc31e-6839-403c-b71d-e1727e9a5638)
+
+### Key Features
+- **Predictive Modeling**: Build models to predict customer churn risk.
+- **Segment Analysis**: Identify churn patterns across different customer segments.
+- **Analytical Insights with LLMs**: Leverage Google Gemini Flash to provide detailed insights, helping business stakeholders develop targeted strategies.
+  
+## Understanding Customer Churn
+
+Churn behavior differs between **postpaid** and **prepaid** customers:
+- **Postpaid Customers**: Easily tracked when they decide to switch to another provider.
+- **Prepaid Customers**: More difficult to track, as they may stop using services without notification. This makes churn prediction critical for prepaid models, which are more common in Indian and Southeast Asian markets.
+![image](https://github.com/user-attachments/assets/d2afbc73-6fb2-411b-84f5-a0b567a7e69f)
+"CHAID Tree Visualization done Using IBM's SPSS Software"
+
+
+## Project Structure
+
+This project leverages CHAID for customer segmentation and churn analysis. The following insights were generated using the model and further refined with insights from Google Gemini Flash:
 
 ### 1. Overview of Customer Segments
-![image](https://github.com/user-attachments/assets/d9a3e842-1eda-4a55-be7b-83845a557277)
-
 - **Month-to-Month Customers**: 
-  - Total: **1,997** (No: 1,457, Yes: 540)
-  - This segment shows significant churn potential, with 27% of these customers leaving.
-
+  - Total: **1,997** (No: 1,457, Yes: 540) 
+  - Significant churn rate of **27%**, indicating higher risk.
 - **One-Year Customers**: 
-  - Total: **397** (No: 360, Yes: 37)
-  - A smaller segment with only **9.3%** showing churn.
-
+  - Total: **397** (No: 360, Yes: 37) 
+  - Churn rate of **9.3%**, suggesting better retention than month-to-month plans.
 - **Two-Year Customers**: 
-  - Total: **486** (No: 471, Yes: 15)
-  - This segment exhibits the lowest churn rate at **3.1%**.
+  - Total: **486** (No: 471, Yes: 15) 
+  - The lowest churn rate at **3.1%**, indicating high retention potential.
 
 ### 2. Churn Analysis by Customer Type
 #### Month-to-Month Segment
-- **DSL Customers**: 
-  - Total: **348** (No: 240, Yes: 108)
-  - Churn rate: **31%** (108/348). The premium customer subgroup shows significant churn, primarily among non-premium customers.
-
-- **Fiber Optic Customers**: 
-  - Total: **619** (No: 266, Yes: 353)
-  - Churn rate: **57%** (353/619). This indicates that fiber optic users have a high tendency to churn, particularly among premium customers who spend more than 2k.
+- **DSL Customers**: Churn rate of **31%**, mainly affecting non-premium customers.
+- **Fiber Optic Customers**: Churn rate of **57%**, higher among premium customers spending over 2k.
 
 #### One-Year Segment
-- **DSL Customers**: 
-  - Total: **397** (No: 360, Yes: 37)
-  - Churn rate: **9.3%**. This is a relatively low churn rate, indicating better retention among one-year customers.
+- **DSL Customers**: Churn rate of **9.3%**, showing good retention.
 
 #### Two-Year Segment
-- **Churn Behavior**: 
-  - Only **15 customers** from this segment churn, resulting in a 3.1% rate. This suggests that customers who stay for two years have a strong likelihood of remaining long-term.
+- **Churn Behavior**: Only **3.1%** churned, indicating strong retention among long-term customers.
 
 ### 3. Premium vs. Non-Premium Customers
-- **Premium Customers**: 
-  - Higher churn is observed in both month-to-month and fiber optic segments, despite their increased spend (2k to 10k).
-  - They tend to respond to payment options differently, with a notable preference for electronic checks.
-
-- **Non-Premium Customers**: 
-  - Show a significant tendency to churn across all segments, particularly under month-to-month plans.
-  - Their payment method choices may be contributing factors to higher churn rates.
+- **Premium Customers**: Higher churn in month-to-month and fiber optic segments, despite higher spending (2k to 10k).
+- **Non-Premium Customers**: Higher churn tendency, especially in month-to-month plans, potentially influenced by payment method choices.
 
 ### 4. Payment Method Insights
-- **Bank Transfer (Automatic)**:
-  - Generally associated with lower churn across all segments. 
-  - Premium customers using this method tend to show higher retention rates compared to those using credit cards or electronic checks.
-
-- **Credit Card (Automatic)**:
-  - Higher churn rates when used by premium customers, suggesting dissatisfaction or cost-related concerns.
-
-- **Electronic Check**:
-  - Notably favored among both premium and non-premium customers, with varying churn rates. Premium customers using this method exhibit a tendency towards higher churn.
+- **Bank Transfer (Automatic)**: Associated with lower churn across segments.
+- **Credit Card (Automatic)**: Higher churn rates among premium customers, potentially indicating cost-related dissatisfaction.
+- **Electronic Check**: Popular among both premium and non-premium customers, though premium users show higher churn.
 
 ### 5. Recommendations
 - **Retention Strategies**:
-  - Focus on retaining month-to-month and fiber optic customers through tailored offers and loyalty programs, particularly for premium customers.
-  - Implement feedback mechanisms to understand dissatisfaction causes among premium users, especially regarding payment methods.
+  - Implement targeted offers and loyalty programs for month-to-month and fiber optic customers, especially premium customers.
+  - Use feedback mechanisms to understand dissatisfaction among premium users, particularly regarding payment methods.
   
 - **Marketing Approaches**:
-  - Emphasize the advantages of long-term commitments (e.g., one-year or two-year plans) to attract month-to-month customers.
-  - Highlight the benefits of electronic checks and bank transfers to premium customers to reduce churn.
+  - Highlight long-term commitment benefits (e.g., one-year and two-year plans) to reduce churn among month-to-month customers.
+  - Promote electronic checks and bank transfers to premium customers to encourage retention.
 
-### Conclusion
-The decision tree analysis indicates that while premium customers contribute significantly to revenue, they also present notable churn challenges, particularly in month-to-month and fiber optic segments. Effective retention strategies focused on payment preferences and customer satisfaction can help mitigate churn and improve long-term customer loyalty.
+## Conclusion
+The insights from CHAID analysis and LLM-based interpretation reveal key factors in churn behavior, highlighting areas to focus on for retaining high-value customers and improving loyalty. With effective, targeted strategies based on these insights, telecom companies can better mitigate churn and foster long-term customer relationships.
+
+## Getting Started
+
+### Prerequisites
+- Python 3.x
+- Necessary libraries: `pandas`, `scikit-learn`, `CHAID`, `Google Gemini API`, `matplotlib` , spss
+
+
+### Usage
+1. **Data Preprocessing**: Load and preprocess telecom customer data.
+2. **Model Training**: Run the CHAID-based churn prediction model.
+3. **Generate Insights**: Use Google Gemini Flash to generate analyst-style insights.
+
+
+--- 
+
+Replace the GitHub URL and file paths with the actual paths for your repository. Let me know if you’d like more customization on any part!
