@@ -1,4 +1,4 @@
-# Customer Churn Prediction using chaid in python
+# Customer Churn Prediction using CHAID in Python and leveraging Google's Gemini Flash to generate analyst style insights!
 
 ### 1. Overview of Customer Segments
 ![image](https://github.com/user-attachments/assets/d9a3e842-1eda-4a55-be7b-83845a557277)
