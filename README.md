@@ -1,4 +1,4 @@
-# churn_prediction_chaid
+# Customer Churn Prediction using chaid in python
 
 ### 1. Overview of Customer Segments
 ![image](https://github.com/user-attachments/assets/d9a3e842-1eda-4a55-be7b-83845a557277)
