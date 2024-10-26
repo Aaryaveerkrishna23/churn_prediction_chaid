@@ -2,9 +2,9 @@
 
 ## Overview
 
-In the highly competitive telecom industry, customer churn—especially among prepaid customers—poses a major challenge. With an annual churn rate of 15-25% in telecom, retaining high-value customers is critical for profitability, as it is 5-10 times more costly to acquire a new customer than to retain an existing one.
+In the highly competitive telecom industry, customer churn especially among prepaid customers—poses a major challenge. With an annual churn rate of 15-25% in telecom, retaining high-value customers is critical for profitability, as it is 5-10 times more costly to acquire a new customer than to retain an existing one.
 
-This project tackles churn prediction for a telecom provider operating in the Indian and Southeast Asian markets. By analyzing customer-level data, we aim to identify customers at high risk of churning and reveal the factors most correlated with churn behavior. This project utilizes CHAID (Chi-squared Automatic Interaction Detector) for market segmentation and Google’s Gemini Flash LLM to generate in-depth, analyst-style insights.
+This project tackles churn prediction for a telecom provider. By analyzing customer-level data, we aim to identify customers at high risk of churning and reveal the factors most correlated with churn behavior. This project utilizes CHAID (Chi-squared Automatic Interaction Detector) for market segmentation and Google’s Gemini Flash LLM to generate in-depth, analyst-style insights.
 ![image](https://github.com/user-attachments/assets/f16bc31e-6839-403c-b71d-e1727e9a5638)
 
 ### Key Features
