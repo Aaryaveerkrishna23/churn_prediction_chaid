@@ -7,6 +7,16 @@ In the intensely competitive telecom industry, customer churn, particularly amon
 This project tackles churn prediction for a telecom provider. By analyzing customer-level data, we aim to identify customers at high risk of churning and reveal the factors most correlated with churn behavior. This project utilizes CHAID (Chi-squared Automatic Interaction Detector) for market segmentation and Google’s Gemini Flash LLM to generate in-depth, analyst-style insights.
 ![image](https://github.com/user-attachments/assets/f16bc31e-6839-403c-b71d-e1727e9a5638)
 
+Chi-square automatic interaction detection (CHAID) is one such tool. By performing a regression analysis on customer or respondent data, you learn how different factors affect your sales and marketing activities.
+Arguably, CHAID’s key advantage over trade-off analysis techniques is its highly visual outputs that are easy to understand and share. That makes it a great tool to use when planning to share insights across the business for different teams to review.CHAID determines and analyzes the relationship between a response variable and others, so you can forecast how to have the biggest impact. The CHAID algorithm splits nodes to produce chi-square values.
+
+A chi-square value is the difference between a standard, expected scenario and the actual results observed in your data. 
+
+The maximum chi-square value is the most statistically significant result in your CHAID decision tree. In other words, it’s the strongest relationship between two variables out of found chi-square values.
+
+Splits with higher total expected chi-square values suggest stronger associations between the variables – i.e. more significant differences in the decision tree.
+
+By finding these associations in B2B market research, you can discover different segments in your customer base – each with specific traits that will inform your targeting tactics
 ### Key Features
 - **Predictive Modeling**: Build models to predict customer churn risk.
 - **Segment Analysis**: Identify churn patterns across different customer segments.
