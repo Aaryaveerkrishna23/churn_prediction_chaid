@@ -81,6 +81,3 @@ The insights from CHAID analysis and LLM-based interpretation reveal key factors
 3. **Generate Insights**: Use Google Gemini Flash to generate analyst-style insights.
 
 
---- 
-
-Replace the GitHub URL and file paths with the actual paths for your repository. Let me know if you’d like more customization on any part!
