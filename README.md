@@ -57,13 +57,21 @@ This project leverages CHAID for customer segmentation and churn analysis. The f
 - **Electronic Check**: Popular among both premium and non-premium customers, though premium users show higher churn.
 
 ### 5. Recommendations
-- **Retention Strategies**:
-  - Implement targeted offers and loyalty programs for month-to-month and fiber optic customers, especially premium customers.
-  - Use feedback mechanisms to understand dissatisfaction among premium users, particularly regarding payment methods.
-  
-- **Marketing Approaches**:
-  - Highlight long-term commitment benefits (e.g., one-year and two-year plans) to reduce churn among month-to-month customers.
-  - Promote electronic checks and bank transfers to premium customers to encourage retention.
+* **Focus on Month-to-month, Fiber optic, Electronic Check segment:**
+    * Offer loyalty programs or incentives to encourage switching to longer contract terms.
+    * Provide tailored promotions and offers to entice customers to switch to alternative payment methods.
+    * Implement targeted marketing campaigns highlighting the benefits of alternative internet services or bundles.
+* **Promote automatic payment methods:**
+    * Offer discounts or rewards for automatic payments.
+    * Provide clear communication about the benefits of automatic payment methods.
+* **Enhance customer service:**
+    * Improve the customer experience with Electronic check payments to address potential issues.
+    * Implement proactive customer service interventions for high-risk segments. 
+* **Target customers with No Internet:**
+    * Offer competitive packages to attract these customers to internet services. 
+* **Leverage contract commitment:**
+    * Implement strategies to encourage longer contract commitments. 
+    * Highlight the benefits of long-term contracts through targeted promotions.
 
 ## Conclusion
 The insights from CHAID analysis and LLM-based interpretation reveal key factors in churn behavior, highlighting areas to focus on for retaining high-value customers and improving loyalty. With effective, targeted strategies based on these insights, telecom companies can better mitigate churn and foster long-term customer relationships.
