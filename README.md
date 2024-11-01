@@ -90,7 +90,7 @@ The insights from CHAID analysis and LLM-based interpretation reveal key factors
 
 ### Prerequisites
 - Python 3.x
-- Necessary libraries: `pandas`, `scikit-learn`, `CHAID`, `Google Gemini API`, `matplotlib` , spss
+- Necessary libraries: `pandas`, `scikit-learn`, `CHAID`, `Google Gemini API`, `matplotlib` , `spss`
 
 
 ### Usage
